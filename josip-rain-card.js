@@ -444,7 +444,7 @@ class CombiCard extends LitElement {
 			// this.myChart.options.transitions.active.animation.duration = 0
 
 			this.myChart = new Chart(ctx, {
-				type: 'line',
+				type: 'bar',
 				options: {
 					backgroundColor: [
 						primaryColor.replace(' ','')+percentToHex(20)
@@ -867,18 +867,18 @@ class CombiCard extends LitElement {
 }
 
 // customElements.define("combi-card-editor", CombiCardEditor);
-customElements.define('neerslag-card', CombiCard);
+customElements.define('josip-rain-card', CombiCard);
 
 window.customCards = window.customCards || [];
 window.customCards.push({
-	type: "neerslag-card", //name of the card
-	name: "Neerslag Card",
+	type: "josip-rain-card", //name of the card
+	name: "Josip Rain Card",
 	preview: true, // Optional - defaults to false
 	description: "Display rain forecast using BuienAlarm and/or BuienRadar data." // Optional
 });
 
 console.info(
-	`%c NEERSLAG-CARD %c 2024.05.05.0`,
+	`%c JOSIP-RAIN-CARD %c 2024.05.05.0`,
 	"Color: white; font-weight: bold; background: red;",
 	""
 );

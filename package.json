@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Neerslag Card for displaying rainfall in a graph",
-  "name": "neerslag-card",
+  "name": "josip-rain-card",
   "devDependencies": {
     "chart.js": "3.8.0",
     "chartjs-plugin-annotation": "1.4.0",

@@ -1,7 +1,7 @@
 {
-    "name": "Neerslag Card",
+    "name": "Josip Rain Card",
     "content_in_root": false,
     "render_readme": true,
     "country": ["NL", "BE"],
-    "filename": "dist/neerslag-card.dist.js"
+    "filename": "dist/josip-rain-card.dist.js"
 }

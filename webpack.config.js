@@ -8,10 +8,10 @@ const TerserPlugin = require("terser-webpack-plugin");
 
 
 const config = {
-    entry: './neerslag-card.js',
+    entry: './josip-rain-card.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'neerslag-card.dist.js',
+        filename: 'josip-rain-card.dist.js',
     },
     plugins: [
         // Add your plugins here
